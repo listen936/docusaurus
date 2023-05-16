@@ -17,7 +17,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "listen936.github.io", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -56,18 +56,18 @@ const config = {
       }),
     ],
   ],
-  plugins: [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "community",
-        path: "community",
-        routeBasePath: "community",
-        sidebarPath: require.resolve("./sidebarsCommunity.js"),
-        // ... other options
-      },
-    ],
-  ],
+  //   plugins: [
+  //     [
+  //       "@docusaurus/plugin-content-docs",
+  //       {
+  //         id: "community",
+  //         path: "community",
+  //         routeBasePath: "community",
+  //         sidebarPath: require.resolve("./sidebarsCommunity.js"),
+  //         // ... other options
+  //       },
+  //     ],
+  //   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
